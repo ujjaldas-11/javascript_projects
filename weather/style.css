@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: #222;
+    color: #fff;
+    background-image: url(https://images.unsplash.com/photo-1726715245558-69afa5ded798?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyMnx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+main {
+    border: none;
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 90%;
+    max-width: 490px;
+    margin: 100px auto 0;
+    backdrop-filter: blur(10px);
+    color: white;
+    margin-top: 45px;
+    /* background: linear-gradient(135deg, #00edfe, #545c8a); */
+
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 45px;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+.search {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#input {
+    font: 300 18px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.562);
+    padding: 10px 15px;
+    margin: 9px;
+    background-color: transparent;
+}
+
+#btn {
+
+    border-radius: 50%;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+#btn i{
+    font-size: 25px;
+    color: white;
+    
+}
+
+#btn:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(0   0 4px rgb(44, 255, 2));
+}
+
+.weather {
+    font-size: 27px;
+    text-align: center;
+}
+
+.time {
+    text-align: center;
+    font-size: 15px;
+}
