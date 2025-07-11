@@ -4,7 +4,7 @@
     --box-margin: 10px;
     --box-border: 10px;
     --media-margin: 40px;
-    --box-font-size: 40px;
+    --box-font-size: 65px;
 }
 
 
@@ -16,6 +16,7 @@
 
 body{
     background-color: #f0f0f0;
+    background-image: url("photo.png");
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
@@ -26,6 +27,7 @@ body{
 
 h1{
     text-align: center;
+    background-color: white;
     margin: var(--box-margin);
 }
 
@@ -34,6 +36,13 @@ h2{
     font-weight: 700;
     font-size: var(--box-font-size);
     margin: var(--box-margin);
+}
+#logo {
+    font-family: cursive;
+    color: 	#FFC107;
+    font-size: 60px;
+    text-decoration: underline;
+    font-weight: 1000;
 }
 
 .container{
@@ -53,7 +62,8 @@ h2{
 }
 
 .box{
-    border: 2px solid #333;
+    border: 5px solid #333;
+    background-color: white;
     font-size: var(--box-font-size);
     height: var(--box-height);
     width: var(--box-height);
@@ -70,8 +80,10 @@ h2{
 } */
 
 .rbtn{
-    width: var(--box-height);
+    width: 180px;
     height: 40px;
+    font-family: cursive;
+    font-weight: 550;
     border-radius: var(--box-border);
     cursor: pointer;
     display: flex;

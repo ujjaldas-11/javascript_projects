@@ -8,10 +8,12 @@ flag = true;
 box.forEach((e) => {
   e.addEventListener("click", () => {
     if (flag) {
+      e.style.color ="#FF4C4C";
       e.innerHTML = "X";
       e.style.pointerEvents = "none";
       flag = false;
     } else {
+      e.style.color="#4C8CFF";
       e.innerHTML = "O";
       e.style.pointerEvents = "none";
       flag = true;
