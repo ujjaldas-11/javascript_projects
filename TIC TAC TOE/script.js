@@ -77,9 +77,3 @@ function checkWinner() {
   }
 }
 
-
-function declearWinner(h2) {
-    h2.innerHTML = `Player ${box[a].innerHTML} wins!`;
-    h2.style.color = "green";
-    box[a].style.backgroundColor = "green";
-}
